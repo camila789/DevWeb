@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="icon" href="img/logo-icone.svg" type="image/svg" sizes="16x16">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<h1 style="font-size: 5vw;">O elemento de imagem (picture)</h1>
+
+<picture>
+  <img src="img/origami.jpg" alt="Flowers" style="width: 90vw; padding: 2vw;">
+</picture>
+
+<p>Redimensione o navegador para ver versões diferentes do carregamento da imagem em diferentes tamanhos de viewport.
+O navegador procura o primeiro elemento de origem em que a consulta de mídia corresponde à largura atual da janela de visualização do usuário,
+e busca a imagem especificada no atributo srcset.</p>
+
+<p>O elemento img é necessário como a última tag filha do bloco de declaração de imagem.
+O elemento img é usado para fornecer compatibilidade com versões anteriores para navegadores que não suportam o elemento picture, ou se nenhuma das tags de origem corresponder.
+</p>
+
+<p><strong>Nota:</strong> O elemento picture não é suportado no IE12 e versões anteriores ou Safari 9.0 e versões anteriores.</p>
+
+</body>
+</html>
