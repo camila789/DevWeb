@@ -1,1 +1,66 @@
+<!DOCTYPE html>
+<html>
+<title>Google maps</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="img/logo-icone.svg" type="image/svg" sizes="16x16">
 
+<body>
+
+  <div class="w3-container">
+    <h1>Google Maps</h1>
+    <p>A incorporação do Google Maps é gratuita. Não é baseado em API. Basta copiar o código iframe e colá-lo no seu
+      site. Apenas isso.<br>
+      Para isso vá no site <a href="https://www.embedgooglemap.net/">embedgooglemap.ne</a>. Insira um endereço no campo
+      de pesquisa à esquerda, selecione os detalhes de como deseja que seu mapa apareça como: foto de satélite ou mapa,
+      zoom e tamanho da área onde será inserido. Clique no botão "Obter código HTML", irá aparecer um quadro com o
+      código HTML. Copie esse código e cole no seu site onde deseja que o mapa apareça.
+      Este é o código para tornar o código do mapa iframe totalmente responsivo: &lt;style&gt; iframe {width: 100%;
+      height: 100%;} &lt;/style&gt;.<br>
+      Analise o código pois pode aparecer uma referência indesejado numa tag &lt;a&gt;, se aparecer remova o link.</p>
+  </div>
+  <iframe src="https://maps.google.com/maps?q=pateo%20do%20col%C3%A9gio&t=&z=13&ie=UTF8&iwloc=&output=embed"
+    width="100%" height="500" frameborder="0"></iframe>
+  <p><a href="https://www.embedgooglemap.net/">Obtido pelo Embed Google Map - Gerador de código Google Maps</a></p>
+  <div class="mapouter">
+    <div class="gmap_canvas"><iframe width="1000" height="500" id="gmap_canvas"
+        src="https://maps.google.com/maps?q=rua%20raiz%20da%20serra&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+        scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://2torrentz.net">torrent to direct</a>
+    </div>
+    <style>
+      .mapouter {
+        position: relative;
+        text-align: right;
+        height: 500px;
+        width: 600px;
+      }
+
+      .gmap_canvas {
+        overflow: hidden;
+        background: none !important;
+        height: 500px;
+        width: 1000px;
+      }
+    </style>
+  </div>
+  <h1>Waze</h1>
+  <p>Para incorporar o mapa ao vivo do Waze no seu site, use um iFrame, siga estas etapas:</p>
+  <ol>
+    <li>Abra sua página da Web em um editor de texto.</li>
+    <li>Para gerar um iFrame na sua página da Web, adicione o código do iFrame a ela.</li>
+    <li>Abra o <a href="https://www.waze.com/livemap">Mapa em tempo real do Waze</a>, busque o local na barra de
+      pesquisa ou aumente o zoom e clique com o botão direito do mouse em um ponto específico do mapa.</li>
+    <li>Um pop-up aparecerá com o nome da rua e algumas opções, clique em "compartilhar.</li>
+    <li>Aparecerá um outro pop-up com o título "Compartilhar e embutir", clique na aba "incorporar um mapa" e em seguida
+      o botão "COPIAR".</li>
+    <li>Agora é só colar o código copiado no local do seu HTML onde ficará o iframe.</li>
+  </ol>
+  <img src="img/waze.png" alt="waze">
+  <iframe src="https://embed.waze.com/iframe?zoom=15&lat=-23.547032&lon=-46.633058&ct=livemap" width="100%" height="500"
+    frameborder="0"></iframe>
+  <p><a href="https://www.waze.com/livemap">Mapa gerado pelo Waze Live Map</a></p>
+
+  <iframe src="https://embed.waze.com/iframe?zoom=15&lat=-23.552972&lon=-46.633143&ct=livemap" width="600" height="450"
+    allowfullscreen></iframe>
+</body>
+
+</html>
