@@ -18,7 +18,7 @@ body {
   padding: 50px;
   text-align: center;
   background-color: #05ffcd;
-  background-image: url(../img/AZUL.jpg);
+  background-image: url(../img/dog.jpg);
   color: black;
 }
 
@@ -77,9 +77,34 @@ body {
   background: rgb(219, 157, 255);
 }
 
+   H2 {    color: rgba(179, 0, 250, 0.979);
+      text-weight: bold;
+  }
+
+  H4 {    color: rgba(226, 5, 255, 0.692);
+      text-weight: bold;
+  }
+
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
 @media (max-width: 600px) {
   .coluna, .navbar {   
     flex-direction: column;
   }
+}
+
+#imagem {
+	float: right;
+	  #height: 100%;
+      #width: 100%;
+  
+}
+
+/* quadro dos sonhos */
+#quadro {
+	
+	
+      height: 600px;
+      border-radius: 10%;
+      width: 60%;
+  
 }
